@@ -76,7 +76,7 @@ public class NewsstandController {
         if (event.getMessage() instanceof TextMessageContent) {
             handleTextMessage(event);
         } else {
-            replyText(event.getReplyToken(), "Unknown Message");
+            replyText(event.getReplyToken(), "Unknown Message. Type --help for more info.");
         }
     }
 
@@ -102,7 +102,7 @@ public class NewsstandController {
         } else if (textMessageContent.getText().equalsIgnoreCase("--help")) {
             System.out.println("Keyboard key type");
         } else {
-            replyText(event.getReplyToken(), "Unknown Message");
+            replyText(event.getReplyToken(), "Unknown Message. Type --help for more info.");
         }
     }
 

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d18010a-9ae3-4286-9ca7-da621af1a0bf" name="Default Changelist" comment="" />
+    <list default="true" id="6d18010a-9ae3-4286-9ca7-da621af1a0bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/newsstand/linebot/controller/NewsstandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newsstand/linebot/controller/NewsstandController.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -95,7 +97,7 @@
         <counts>
           <entry key="dummy" value="7" />
           <entry key="gradle" value="47" />
-          <entry key="java" value="12924" />
+          <entry key="java" value="12959" />
           <entry key="json" value="1297" />
           <entry key="properties" value="3" />
         </counts>
@@ -103,7 +105,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="47" />
-          <entry key="JAVA" value="12924" />
+          <entry key="JAVA" value="12959" />
           <entry key="JSON" value="1297" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="Properties" value="3" />
@@ -120,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/newsstand/linebot/controller/NewsstandController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="93" column="57" selection-start-line="93" selection-start-column="57" selection-end-line="93" selection-end-column="57" />
+            <state relative-caret-position="21">
+              <caret line="78" column="63" selection-start-line="78" selection-start-column="63" selection-end-line="78" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -708,12 +710,12 @@
       <workItem from="1538816075951" duration="22784000" />
       <workItem from="1538880325699" duration="24785000" />
       <workItem from="1538905800443" duration="18733000" />
-      <workItem from="1538930135310" duration="1073000" />
+      <workItem from="1538930135310" duration="1746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157459000" />
+    <option name="totallyTimeSpent" value="158132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -898,8 +900,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/newsstand/linebot/controller/NewsstandController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="93" column="57" selection-start-line="93" selection-start-column="57" selection-end-line="93" selection-end-column="57" />
+        <state relative-caret-position="21">
+          <caret line="78" column="63" selection-start-line="78" selection-start-column="63" selection-end-line="78" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
