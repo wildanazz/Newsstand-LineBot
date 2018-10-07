@@ -82,24 +82,27 @@ public class NewsstandController {
 
     private void handleTextMessage(MessageEvent event) {
         TextMessageContent textMessageContent = (TextMessageContent) event.getMessage();
-        if (textMessageContent.getText().equalsIgnoreCase("/topnews")) {
-            List<Article> articleList = searchNews(apiKey, textMessageContent.getText(), "/topnews");
+        if (textMessageContent.getText().equalsIgnoreCase("@topnews")) {
+            List<Article> articleList = searchNews(apiKey, textMessageContent.getText(), "@topnews");
             replyFlexMessage(event.getReplyToken(), articleList);
-        } else if (textMessageContent.getText().equalsIgnoreCase("/topindo")) {
-            List<Article> articleList = searchNews(apiKey, textMessageContent.getText(), "/topindo");
+        } else if (textMessageContent.getText().equalsIgnoreCase("@topindo")) {
+            List<Article> articleList = searchNews(apiKey, textMessageContent.getText(), "@topindo");
             replyFlexMessage(event.getReplyToken(), articleList);
-        } else if (textMessageContent.getText().equalsIgnoreCase("/topworld")) {
-            List<Article> articleList = searchNews(apiKey, textMessageContent.getText(), "/topworld");
+        } else if (textMessageContent.getText().equalsIgnoreCase("@topworld")) {
+            List<Article> articleList = searchNews(apiKey, textMessageContent.getText(), "@topworld");
             replyFlexMessage(event.getReplyToken(), articleList);
-        } else if (textMessageContent.getText().equalsIgnoreCase("--help")) {
-            System.out.println("Keyword Reply Message");
-        }else if (textMessageContent.getText().contains("+")) {
+        } else if (textMessageContent.getText().equalsIgnoreCase("@search")) {
+            String searchQuery = textMessageContent.getText().replace("@search","");
+            List<Article> articleList = searchNews(apiKey, searchQuery, "@search");
+            replyFlexMessage(event.getReplyToken(), articleList);
+        } else if (textMessageContent.getText().contains("+")) {
             String searchQuery = textMessageContent.getText().replace("+","");
             List<Article> articleList = searchNews(apiKey, searchQuery, "+");
             replyFlexMessage(event.getReplyToken(), articleList);
+        } else if (textMessageContent.getText().equalsIgnoreCase("--help")) {
+            System.out.println("Keyboard key type");
         } else {
-            List<Article> articleList = searchNews(apiKey, textMessageContent.getText(), "search");
-            replyFlexMessage(event.getReplyToken(), articleList);
+            replyText(event.getReplyToken(), "Unknown Message");
         }
     }
 
@@ -151,16 +154,16 @@ public class NewsstandController {
             URL url;
             String host = "https://api.cognitive.microsoft.com";
             String path = "/bing/v7.0/news";
-            if (param.equalsIgnoreCase("/topnews")) {
+            if (param.equalsIgnoreCase("@topnews")) {
                 url = new URL(host + path);
-            } else if (param.equalsIgnoreCase("/topindo")) {
+            } else if (param.equalsIgnoreCase("@topindo")) {
                 url = new URL(host + path + "/search?q=indonesia");
-            } else if (param.equalsIgnoreCase("/topworld")) {
+            } else if (param.equalsIgnoreCase("@topworld")) {
                 url = new URL(host + path + "?mkt=en-US&category=World");
-            } else if (param.equalsIgnoreCase("+")) {
-                url = new URL(host + path + "?mkt=en-US&category=" +  URLEncoder.encode(searchQuery, "UTF-8"));
-            } else {
+            } else if (param.equalsIgnoreCase("@search")) {
                 url = new URL(host + path + "/search?q=" +  URLEncoder.encode(searchQuery, "UTF-8"));
+            } else {
+                url = new URL(host + path + "?mkt=en-US&category=" +  URLEncoder.encode(searchQuery, "UTF-8"));
             }
             HttpURLConnection connection = (HttpURLConnection)url.openConnection();
             connection.setRequestMethod("GET");

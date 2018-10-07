@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d18010a-9ae3-4286-9ca7-da621af1a0bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/newsstand/linebot/controller/Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/newsstand/linebot/controller/NewsstandController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newsstand/linebot/controller/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newsstand/linebot/Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/newsstand/linebot/controller/NewsstandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newsstand/linebot/controller/NewsstandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -65,7 +57,7 @@
     <session id="1722440028">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="1" />
@@ -76,11 +68,12 @@
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -105,7 +98,7 @@
         <counts>
           <entry key="dummy" value="7" />
           <entry key="gradle" value="47" />
-          <entry key="java" value="12775" />
+          <entry key="java" value="12920" />
           <entry key="json" value="1297" />
           <entry key="properties" value="3" />
         </counts>
@@ -113,7 +106,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="47" />
-          <entry key="JAVA" value="12775" />
+          <entry key="JAVA" value="12920" />
           <entry key="JSON" value="1297" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="Properties" value="3" />
@@ -130,20 +123,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/newsstand/linebot/controller/NewsstandController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="187" column="34" selection-start-line="187" selection-start-column="34" selection-end-line="187" selection-end-column="34" />
+            <state relative-caret-position="291">
+              <caret line="94" column="54" selection-start-line="94" selection-start-column="54" selection-end-line="94" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/flex_message.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
-              <caret line="320" column="466" selection-start-line="320" selection-start-column="466" selection-end-line="320" selection-end-column="466" />
             </state>
           </provider>
         </entry>
@@ -596,7 +580,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -650,13 +633,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538924128842" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538927211791" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/newsstand/linebot" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -726,18 +710,19 @@
       <workItem from="1538815621411" duration="426000" />
       <workItem from="1538816075951" duration="22784000" />
       <workItem from="1538880325699" duration="24785000" />
-      <workItem from="1538905800443" duration="17877000" />
+      <workItem from="1538905800443" duration="18733000" />
+      <workItem from="1538930135310" duration="825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155530000" />
+    <option name="totallyTimeSpent" value="157211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26895452" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.273743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -747,7 +732,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952693" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960095" visible="true" weight="0.32952693" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960095" weight="0.32952693" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39967373" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -890,13 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -911,23 +889,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/flex_message.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
+        <state relative-caret-position="15">
           <caret line="320" column="466" selection-start-line="320" selection-start-column="466" selection-end-line="320" selection-end-column="466" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/newsstand/linebot/controller/NewsstandController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="187" column="34" selection-start-line="187" selection-start-column="34" selection-end-line="187" selection-end-column="34" />
+        <state relative-caret-position="291">
+          <caret line="94" column="54" selection-start-line="94" selection-start-column="54" selection-end-line="94" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
