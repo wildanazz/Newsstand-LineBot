@@ -1,0 +1,56 @@
+[
+  {
+    "type": "action",
+    "imageUrl": "https://image.ibb.co/f62FEK/diagram.png",
+    "action": {
+      "type": "message",
+      "label": "+Business",
+      "text": "+Business"
+    }
+  },
+  {
+    "type": "action",
+    "imageUrl": "https://image.ibb.co/b7uj8e/cards.png",
+    "action": {
+      "type": "message",
+      "label": "+Entertainment",
+      "text": "+Entertainment"
+    }
+  },
+  {
+    "type": "action",
+    "imageUrl": "https://image.ibb.co/nuGLgz/care.png",
+    "action": {
+      "type": "message",
+      "label": "+Health",
+      "text": "+Health"
+    }
+  },
+  {
+    "type": "action",
+    "imageUrl": "https://image.ibb.co/hsZTZK/physics.png",
+    "action": {
+      "type": "message",
+      "label": "+Science",
+      "text": "+Science"
+    }
+  },
+  {
+    "type": "action",
+    "imageUrl": "https://image.ibb.co/euL2uK/medal.png",
+    "action": {
+      "type": "message",
+      "label": "+Sports",
+      "text": "+Sports"
+    }
+  },
+  {
+    "type": "action",
+    "imageUrl": "https://image.ibb.co/bBWWoe/laptop.png",
+    "action": {
+      "type": "message",
+      "label": "+Technology",
+      "text": "+Technology"
+    }
+  }
+]

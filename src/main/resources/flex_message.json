@@ -1,0 +1,355 @@
+{
+  "type": "bubble",
+  "header": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "text",
+        "text": "NEWSSTAND",
+        "weight": "bold",
+        "color": "#ffffff",
+        "size": "sm"
+      }
+    ]
+  },
+  "hero": {
+    "type": "image",
+    "url": "https://image.ibb.co/n1utuK/flipboard_650225_unsplash.jpg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "horizontal",
+    "spacing": "md",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "flex": 2,
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://image.ibb.co/n1utuK/flipboard_650225_unsplash.jpg",
+                "aspectMode": "cover",
+                "aspectRatio": "4:3",
+                "size": "sm",
+                "gravity": "bottom"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 2,
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Lorem ipsum dolor sit amet",
+                    "gravity": "center",
+                    "align": "center",
+                    "size": "xs",
+                    "flex": 1
+                  },
+                  {
+                    "type": "separator"
+                  },
+                  {
+                    "type": "text",
+                    "action": {
+                      "type": "uri",
+                      "label": "link",
+                      "uri": "https://www.bing.com/news"
+                    },
+                    "text": "The standard Lorem Ipsum passage, used since the 1500s",
+                    "gravity": "center",
+                    "align": "center",
+                    "size": "xs",
+                    "flex": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "gravity": "center",
+            "size": "xs",
+            "flex": 0,
+            "wrap": true,
+            "margin": "md"
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "flex": 1,
+            "margin": "md",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://image.ibb.co/n1utuK/flipboard_650225_unsplash.jpg",
+                "aspectMode": "cover",
+                "aspectRatio": "4:3",
+                "size": "sm",
+                "gravity": "bottom"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 2,
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Lorem ipsum dolor sit amet",
+                    "gravity": "center",
+                    "align": "center",
+                    "size": "xs",
+                    "flex": 1
+                  },
+                  {
+                    "type": "separator"
+                  },
+                  {
+                    "type": "text",
+                    "action": {
+                      "type": "uri",
+                      "label": "link",
+                      "uri": "https://www.bing.com/news"
+                    },
+                    "text": "The standard Lorem Ipsum passage, used since the 1500s",
+                    "gravity": "center",
+                    "align": "center",
+                    "size": "xs",
+                    "flex": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "gravity": "center",
+            "size": "xs",
+            "flex": 0,
+            "wrap": true,
+            "margin": "md"
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "flex": 1,
+            "margin": "md",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://image.ibb.co/n1utuK/flipboard_650225_unsplash.jpg",
+                "aspectMode": "cover",
+                "aspectRatio": "4:3",
+                "size": "sm",
+                "gravity": "bottom"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 2,
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Lorem ipsum dolor sit amet",
+                    "gravity": "center",
+                    "align": "center",
+                    "size": "xs",
+                    "flex": 1
+                  },
+                  {
+                    "type": "separator"
+                  },
+                  {
+                    "type": "text",
+                    "action": {
+                      "type": "uri",
+                      "label": "link",
+                      "uri": "https://www.bing.com/news"
+                    },
+                    "text": "The standard Lorem Ipsum passage, used since the 1500s",
+                    "gravity": "center",
+                    "align": "center",
+                    "size": "xs",
+                    "flex": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "gravity": "center",
+            "size": "xs",
+            "flex": 0,
+            "wrap": true,
+            "margin": "md"
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "flex": 1,
+            "margin": "md",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://image.ibb.co/n1utuK/flipboard_650225_unsplash.jpg",
+                "aspectMode": "cover",
+                "aspectRatio": "4:3",
+                "size": "sm",
+                "gravity": "bottom"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 2,
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Lorem ipsum dolor sit amet",
+                    "gravity": "center",
+                    "align": "center",
+                    "size": "xs",
+                    "flex": 1
+                  },
+                  {
+                    "type": "separator"
+                  },
+                  {
+                    "type": "text",
+                    "action": {
+                      "type": "uri",
+                      "label": "link",
+                      "uri": "https://www.bing.com/news"
+                    },
+                    "text": "The standard Lorem Ipsum passage, used since the 1500s",
+                    "gravity": "center",
+                    "align": "center",
+                    "size": "xs",
+                    "flex": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "gravity": "center",
+            "size": "xs",
+            "flex": 0,
+            "wrap": true,
+            "margin": "md"
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "flex": 1,
+            "margin": "md",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://image.ibb.co/n1utuK/flipboard_650225_unsplash.jpg",
+                "aspectMode": "cover",
+                "aspectRatio": "4:3",
+                "size": "sm",
+                "gravity": "bottom"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 2,
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Lorem ipsum dolor sit amet",
+                    "gravity": "center",
+                    "align": "center",
+                    "size": "xs",
+                    "flex": 1
+                  },
+                  {
+                    "type": "separator"
+                  },
+                  {
+                    "type": "text",
+                    "action": {
+                      "type": "uri",
+                      "label": "link",
+                      "uri": "https://www.bing.com/news"
+                    },
+                    "text": "The standard Lorem Ipsum passage, used since the 1500s",
+                    "gravity": "center",
+                    "align": "center",
+                    "size": "xs",
+                    "flex": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "gravity": "center",
+            "size": "xs",
+            "flex": 0,
+            "wrap": true,
+            "margin": "md"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "button",
+        "color": "#ffffff",
+        "action": {
+          "type": "uri",
+          "label": "More",
+          "uri": "https://www.bing.com/news"
+        }
+      }
+    ]
+  },
+  "styles": {
+    "header": {
+      "backgroundColor": "#e71c2c"
+    },
+    "footer": {
+      "backgroundColor": "#e71c2c"
+    }
+  }
+}
