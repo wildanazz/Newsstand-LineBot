@@ -91,7 +91,7 @@ public class NewsstandController {
         } else if (textMessageContent.getText().equalsIgnoreCase("@topworld")) {
             List<Article> articleList = searchNews(apiKey, textMessageContent.getText(), "@topworld");
             replyFlexMessage(event.getReplyToken(), articleList);
-        } else if (textMessageContent.getText().equalsIgnoreCase("@search")) {
+        } else if (textMessageContent.getText().contains("@search")) {
             String searchQuery = textMessageContent.getText().replace("@search","");
             List<Article> articleList = searchNews(apiKey, searchQuery, "@search");
             replyFlexMessage(event.getReplyToken(), articleList);
